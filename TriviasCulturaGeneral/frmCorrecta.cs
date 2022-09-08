@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Media;
+using System.Text;
+using System.Windows.Forms;
+
+namespace TriviasCulturaGeneral
+{
+    public partial class frmCorrecta : Form
+    {
+        public frmCorrecta()
+        {
+            InitializeComponent();
+            playSimpleSound();
+        }
+
+        string rutaAudio = "D:/Proyectos/.NetProjects/Escritorio/TriviasCulturaGeneral/TriviasCulturaGeneral/sonidos/correcto.wav";
+        private void playSimpleSound()
+        {
+            SoundPlayer player = new SoundPlayer();
+            player.SoundLocation = rutaAudio;
+            player.Play();
+
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
+}
