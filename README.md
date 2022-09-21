@@ -13,4 +13,10 @@ reproduce un sonido y muestra una cara feliz, si incorrecta reproduce
 otro sonido y muestra una cara triste. Los elementos y controles
 mínimos que debe llevar el formulario
 
+
+# Recomendaciones 
+En el desarrollo del programa se ubicaron los archivos en diferentes rutas, siendo la ruta en el disco E la más eficaz. 
+Por eso recomiendo una vez descomprimido el archivo del proyecto ubicar la carpeta "sonidos" en su disco E del ordenador para que pueda leer los audios correctamente al momento de ejecutar el programa, del contrario resultará un error.
+
+
 # Deyson Vente - UNAD - Lenguajes de Programación
