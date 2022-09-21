@@ -17,7 +17,8 @@ namespace TriviasCulturaGeneral
             InitializeComponent();
             playSimpleSound();
         }
-        string rutaAudio = "D:/Proyectos/.NetProjects/Escritorio/TriviasCulturaGeneral/TriviasCulturaGeneral/sonidos/incorrecto.wav";
+        //string rutaAudio = "D:/Proyectos/.NetProjects/Escritorio/TriviasCulturaGeneral/TriviasCulturaGeneral/sonidos/incorrecto.wav";
+        string rutaAudio = "D:/sonidos/incorrecto.wav";
         private void playSimpleSound()
         {
             SoundPlayer player = new SoundPlayer();
